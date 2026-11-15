@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Estudo de caso de Mariana Felipe, UI/UX Designer.">
+<title>Nome do projeto — Mariana Felipe</title>
+<link rel="stylesheet" href="../projeto.css">
+<script src="https://unpkg.com/lucide@latest"></script>
+<script src="projeto.js" defer></script>
+</head>
+<body class="project-page" id="topo">
+<div class="cursor-dot" aria-hidden="true"></div>
+
+<!-- NAVBAR (igual à da página inicial) -->
+<header class="site-header">
+  <nav class="navbar" aria-label="Navegação principal">
+    <a href="../index.html#inicio">Início</a>
+    <a href="../index.html#sobre">Sobre</a>
+    <a href="../index.html#projetos" class="active" aria-current="page">Projetos</a>
+    <a href="../index.html#contato">Contato</a>
+  </nav>
+</header>
+
+<main>
+
+<!-- BOTÕES NO TOPO: voltar / próximo projeto -->
+<nav class="case-pager" aria-label="Navegação entre projetos">
+  <a class="pager-btn" href="../index.html#projetos"><span>←</span> Voltar</a>
+  <a class="pager-btn pager-next" href="../projeto_2/projeto.html">Próximo projeto <span>→</span></a>
+</nav>
+
+<section class="case-intro">
+  <p class="eyebrow"><i></i> PESQUISA · UX/UI DESIGN · PROTOTIPAÇÃO</p>
+  <h1>Avita</h1>
+<p class="summary">Avitta é um protótipo mobile de telemedicina que facilita o atendimento online entre pacientes e profissionais de saúde. Do estudo com usuários à prototipação de alta fidelidade, o projeto validou uma solução simples e centrada nas pessoas.</p>  <a class="prototype" href="https://www.figma.com/proto/r4TsuulNG6HalRHvgjSi6L/squad-6---Co.Lab?node-id=314-2604&starting-point-node-id=314%3A2369&t=tPfPHEL7D4rrAM9j-1" target="_blank" rel="noopener noreferrer">Explorar protótipo <span>▶</span></a>
+</section>
+
+
+<!-- Abertura visual: substitua os caminhos pelas imagens do projeto -->
+<section class="showcase" aria-label="Apresentação visual do projeto">
+  <div class="showcase-main image-slot">
+    <img src="assets/interface.png" alt="Imagem principal ou mockup do projeto" onerror="this.remove()">
+    <div class="placeholder"><b>IMAGEM PRINCIPAL</b></div>
+    <label>01 / INTERFACE</label>
+  </div>
+  <div class="showcase-side">
+    <div class="image-slot">
+      <img src="assets/identidade.png" alt="Identidade visual do projeto" onerror="this.remove()"><div class="placeholder"><b>IDENTIDADE VISUAL</b><span>Cores e tipografia</span></div><label>02 / IDENTIDADE</label></div>
+    <div class="image-slot"><img src="assets/logo.png" alt="Logo do projeto" onerror="this.remove()"><div class="placeholder"><b>LOGO</b><span>Telas e componentes</span></div><label>03 / LOGO </label></div>
+  </div>
+</section>
+
+<div class="case-layout">
+  <aside class="case-nav"><small>NESTE PROJETO</small>
+    <a href="#visao-geral">Visão geral</a><a href="#desafio">O desafio</a><a href="#processo">Processo</a><a href="#solucao">A solução</a><a href="#resultado">Resultados</a>
+  </aside>
+
+  <article class="case-content">
+    <section class="case-section" id="visao-geral">
+      <p class="number">01 — CONTEXTO</p><h2>Visão geral</h2>
+      <p>
+        O Avitta foi um projeto desenvolvido durante um bootcamp de imersão em UX/UI Design, com o objetivo de investigar os desafios da experiência do usuário em plataformas de telemedicina e propor uma solução digital que atendesse às necessidades de pacientes e profissionais de saúde. 
+      </p> 
+      <p>
+        Ao longo do projeto, participei de todas as etapas do processo de design, desde a pesquisa e organização dos dados até a definição de personas, mapeamento da jornada e elaboração dos primeiros esboços da interface.
+      </p>
+      <div class="highlight"><p><b>Em poucas palavras:</b> um aplicativo de telemedicina que torna o atendimento online mais simples e acessível, tanto para quem busca cuidado quanto para quem o oferece.</p></div>
+    </section>
+
+    <section class="case-section" id="desafio">
+      <p class="number">02 — O DESAFIO</p><h2>O que precisava ser resolvido?</h2>
+      <p>
+        Embora a telemedicina amplie o acesso aos serviços de saúde e ofereça mais flexibilidade aos pacientes, sua adoção também apresenta desafios relacionados à experiência de uso, à acessibilidade e à confiança no atendimento remoto.
+      </p>
+      <p>
+        Diante desse cenário, nosso desafio foi compreender as necessidades de diferentes perfis de usuários e identificar oportunidades para tornar a experiência com serviços de telemedicina mais simples, acessível e conveniente.
+      </p>   
+      <p>
+        A investigação considerou tanto a perspectiva dos pacientes quanto a dos profissionais de saúde, buscando compreender suas dificuldades, expectativas e motivações.</p>
+      </p>
+        <figure><img src="assets/pesquisa.png" alt="Pesquisa ou mapeamento do problema" onerror="this.remove()"><figcaption>Mapeamento de sistemas mobile de telemedicina.</figcaption></figure>
+    </section>
+
+
+<section class="case-section" id="processo">
+  <p class="number">03 — PROCESSO</p>
+  <h2>Como cheguei à solução</h2>
+
+  <p>
+    O desenvolvimento do Avitta seguiu um processo de UX Design
+    que envolveu pesquisa, análise das necessidades dos usuários,
+    estruturação de experiências e exploração de soluções.
+    Cada etapa contribuiu para compreender os desafios da
+    telemedicina e transformar os principais achados em
+    direcionamentos para o produto.
+  </p>
+
+  <div class="steps">
+
+    <div>
+      <b>01</b>
+      <p>
+        <strong>Pesquisa e descoberta</strong><br>
+        Começamos com uma <strong>pesquisa secundária
+        (Desk Research)</strong> para compreender o cenário da
+        telemedicina, suas aplicações e os desafios relacionados
+        ao atendimento remoto. Em seguida, utilizamos a
+        <strong>Matriz CSD (Certezas, Suposições e Dúvidas)</strong>
+        para organizar o conhecimento inicial da equipe,
+        identificar pontos que precisavam de investigação e
+        direcionar a elaboração de perguntas sobre hábitos,
+        experiências e dificuldades dos usuários com consultas
+        remotas.
+        <br><br>
+        <strong>Técnicas utilizadas:</strong>
+        Desk Research, Matriz CSD e elaboração de perguntas
+        de pesquisa.
+      </p>
+    </div>
+
+    <div>
+      <b>02</b>
+      <p>
+        <strong>Organização dos achados e compreensão dos usuários</strong><br>
+        Após a etapa inicial de pesquisa, organizamos e agrupamos
+        as informações levantadas para identificar padrões de
+        comportamento, necessidades e expectativas.
+        A partir dessa síntese, desenvolvemos
+        <strong>três personas</strong>, representando diferentes
+        perfis e perspectivas de usuários em relação à
+        telemedicina.
+        <br><br>
+        Também construímos a <strong>Jornada do Usuário</strong>
+        para visualizar suas experiências, identificar possíveis
+        dificuldades ao longo da utilização do serviço e
+        compreender melhor os pontos de contato com a plataforma.
+        <br><br>
+        <strong>Técnicas utilizadas:</strong>
+        Agrupamento e síntese de achados, construção de personas
+        e mapeamento da jornada do usuário.
+      </p>
+    </div>
+
+    <div>
+      <b>03</b>
+      <p>
+        <strong>Ideação e estruturação dos fluxos</strong><br>
+        Com as necessidades dos usuários mais claras,
+        avançamos para a exploração de possibilidades de solução.
+        Realizamos um <strong>benchmarking</strong> de produtos
+        digitais da área da saúde, observando referências de
+        organização, funcionalidades e experiências de uso.
+        <br><br>
+        Em paralelo, estruturamos os
+        <strong>fluxos de navegação</strong> da plataforma,
+        mapeando os caminhos necessários para que os usuários
+        pudessem realizar suas principais ações. Essa etapa
+        ajudou a organizar a lógica de funcionamento do produto
+        antes de avançarmos para a construção das interfaces.
+        <br><br>
+        <strong>Técnicas utilizadas:</strong>
+        Benchmarking, ideação e mapeamento de fluxos de usuário.
+      </p>
+    </div>
+
+    <div>
+      <b>04</b>
+      <p>
+        <strong>Prototipação e exploração das interfaces</strong><br>
+        Com os fluxos estruturados, partimos para a exploração
+        visual das soluções por meio de
+        <strong>esboços de baixa fidelidade (Sketching)</strong>.
+        Utilizamos a atividade de <strong>Rabiscoframe</strong>
+        para representar ideias de interface, testar possibilidades
+        de organização dos elementos e discutir diferentes
+        alternativas para as telas.
+        <br><br>
+        Entre os cenários explorados, trabalhamos os fluxos de
+        <strong>cancelamento e alteração de consultas</strong>,
+        representando as etapas e interações necessárias para
+        realizar essas ações. Os esboços ajudaram a visualizar
+        a estrutura das interfaces antes de avançarmos para
+        soluções mais elaboradas.
+        <br><br>
+        <strong>Técnicas utilizadas:</strong>
+        Sketching, Rabiscoframe e prototipação de baixa fidelidade.
+      </p>
+    </div>
+
+  </div>
+
+  <div class="sketch-gallery">
+
+    <div class="sketch-group">
+      <h3>Cancelamento de consulta</h3>
+      <figure>
+        <img src="assets/cancelar.png"
+             alt="Esboços de baixa fidelidade do fluxo de cancelamento de consulta"
+             onerror="this.remove()">
+        <figcaption>
+          Exploração inicial das telas e interações do fluxo
+          de cancelamento de consulta.
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="sketch-group">
+      <h3>Alteração de consulta</h3>
+      <figure>
+        <img src="assets/alterar.png"
+             alt="Esboços de baixa fidelidade do fluxo de alteração de consulta"
+             onerror="this.remove()">
+        <figcaption>
+          Esboços utilizados para estruturar as etapas
+          de alteração de uma consulta.
+        </figcaption>
+      </figure>
+    </div>
+
+  </div>
+
+</section>
+
+
+<section class="case-section" id="solucao">
+  <p class="number">04 — SOLUÇÃO</p>
+  <h2>Uma experiência pensada para as pessoas</h2>
+
+  <p>
+    A proposta do Avitta foi explorar uma experiência digital
+    que tornasse o acesso aos serviços de telemedicina mais
+    simples e organizado. A partir das necessidades identificadas
+    durante a pesquisa, trabalhamos na estruturação de fluxos
+    que permitissem aos usuários gerenciar suas consultas com
+    mais praticidade, considerando diferentes momentos da
+    experiência de atendimento.
+  </p>
+
+  <div class="solution-grid">
+    <div>
+      <small>01</small>
+      <h3>Facilidade de uso</h3>
+      <p>
+        Estruturação de fluxos claros para ações como cancelar
+        e alterar consultas, buscando reduzir etapas
+        desnecessárias e facilitar a navegação.
+      </p>
+    </div>
+
+    <div>
+      <small>02</small>
+      <h3>Experiência centrada no usuário</h3>
+      <p>
+        Consideração das diferentes necessidades e expectativas
+        identificadas na pesquisa, utilizando as personas como
+        referência para orientar as decisões de design.
+      </p>
+    </div>
+  </div>
+
+ 
+
+<a
+  href="https://www.figma.com/proto/r4TsuulNG6HalRHvgjSi6L/squad-6---Co.Lab?node-id=314-2604&starting-point-node-id=314%3A2369&t=tPfPHEL7D4rrAM9j-1"
+  class="prototype-card"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <div>
+    <span>PROTÓTIPO INTERATIVO</span>
+    <h3>Explore o Avitta</h3>
+  </div>
+
+  <div class="prototype-arrow">
+  ▶
+</div>
+</a>
+
+
+</section>
+
+<section class="case-section" id="resultado">
+  <p class="number">05 — FECHAMENTO</p>
+  <h2>Resultados e aprendizados</h2>
+
+  <p>
+    O projeto resultou na construção de uma proposta de
+    experiência para uma plataforma de telemedicina, passando
+    pela investigação do contexto, identificação das necessidades
+    dos usuários, definição de personas, mapeamento da jornada
+    e elaboração de fluxos e esboços de interface.
+  </p>
+
+  <p>
+    Por ter sido desenvolvido em um bootcamp de imersão,
+    o Avitta também representou uma oportunidade de aplicar,
+    de forma colaborativa, diferentes etapas do processo de
+    UX/UI Design em um mesmo projeto.
+  </p>
+
+  <p>
+    Entre os principais aprendizados, destaco a importância
+    de compreender o contexto e as particularidades dos
+    usuários antes de propor soluções, além de transformar
+    informações da pesquisa em decisões mais concretas
+    de estrutura e interação.
+  </p>
+</section>
+
+</div>
+
+<!-- BOTÕES NO FINAL: voltar / próximo projeto -->
+<nav class="case-pager case-pager-bottom" aria-label="Navegação entre projetos">
+  <a class="pager-btn" href="../index.html#projetos"><span>←</span> Voltar</a>
+  <a class="pager-btn pager-next" href="../projeto_2/projeto.html">Próximo projeto <span>→</span></a>
+</nav>
+
+</main>
+<footer class="project-footer"><span>© <span id="year"></span> MARIANA FELIPE</span><a href="#topo">VOLTAR AO TOPO ↑</a></footer>
+</body></html>
